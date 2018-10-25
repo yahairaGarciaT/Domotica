@@ -1,3 +1,4 @@
+//Programa
 const int LUZSALA= 13;
 const int LUZDECOCINA= 12;
 void setup()
