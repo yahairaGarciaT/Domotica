@@ -1,0 +1,27 @@
+const int LUZSALA= 13;
+const int LUZDECOCINA= 12;
+const int LUZCUARTO1= 11;
+const int LUZCUARTO2= 10;
+
+void setup()
+{
+pinMode(LUZSALA,OUTPUT);
+pinMode(LUZDECOCINA,OUTPUT);
+pinMode(LUZCUARTO1,OUTPUT);
+pinMode(LUZCUARTO2,OUTPUT);
+}
+void loop()
+{
+digitalWrite(LUZSALA,HIGH);
+delay(1000);
+digitalWrite(LUZSALA,LOW);
+digitalWrite(LUZDECOCINA,HIGH);
+delay(1000);
+digitalWrite(LUZDECOCINA,LOW);
+digitalWrite(LUZCUARTO1,HIGH);
+delay(1000);
+digitalWrite(LUZCUARTO1,LOW);
+digitalWrite(LUZCUARTO2,HIGH);
+delay(1000);
+digitalWrite(LUZCUARTO2,LOW);
+}
